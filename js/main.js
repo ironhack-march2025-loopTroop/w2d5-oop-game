@@ -3,7 +3,7 @@ class Player {
     constructor() {
         this.width = 10;
         this.height = 10;
-        this.positionX = 50; // horizontal position (in vw)
+        this.positionX = 50 - (this.width / 2); // horizontal position (in vw)
         this.positionY = 0; // vertical position (in vh)
         this.updateUI();
     }
